@@ -1,9 +1,13 @@
+import Navbar from "./components/Navbar"
 
 
 
 const App = () => {
   return(
-    <h1 className="bg-emerald-600">3d website</h1>
+    <div>
+      <Navbar/>
+    </div>
+   
   )
    
 }
